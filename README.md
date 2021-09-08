@@ -1,1 +1,1 @@
-# doc-pages
+一个文档主题的主页，部署在GithubPages上。
