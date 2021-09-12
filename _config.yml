@@ -3,6 +3,8 @@ description:  笔记
 
 theme: null
 
+siteurl: "https://xymeng.xyz/doc-pages/"
+
 # debug:
 #   compress: true
 #   dist: false
