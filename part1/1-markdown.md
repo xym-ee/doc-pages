@@ -2,7 +2,7 @@
 sort: 1
 ---
 
-# Markdown基本元素
+# Markdown基本语法
 
 Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://github.com) should be blue with no underlines (unless hovered over).
 

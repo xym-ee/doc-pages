@@ -1,3 +1,3 @@
-# I'm folder2
+# 文件夹2
 
 source: `{{ page.path }}`
