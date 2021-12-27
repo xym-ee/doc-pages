@@ -6406,9 +6406,9 @@ p.explain .minibutton
 .toctree>ul .toc.current a.current
 {
 	font-weight: bold;
-	background: #ccff90;
-	border-top: 1px solid var(--toc-2);
-	border-bottom: 1px solid var(--toc-2)
+	background: #ffffff;
+	border-top: 2px solid var(--toc-2);
+	border-bottom: 2px solid var(--toc-2)
 }
 
 .toctree>ul>.toc.current
