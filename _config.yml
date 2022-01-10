@@ -3,12 +3,22 @@ description:  xyMeng
 
 theme: null
 
-siteurl: "https://xymeng.xyz/doc-pages/"
+siteurl: "https://xymeng.xyz/doc-pages"
 
 # debug:
 #   compress: true
 #   dist: false
 #   shortcodes: true
+
+gittalk:
+  clientID: 5c4a4805389461265123
+  clientSecret: b13a143f197a4e12a8295c256b366d884ec661d8
+  repo: doc-pages
+  owner: 0xyMeng
+  admin: 0xyMeng
+  id: doc-pages-gittalk
+
+
 
 readme_index:
   with_frontmatter: true
