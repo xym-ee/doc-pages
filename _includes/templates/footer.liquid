@@ -40,7 +40,7 @@
         {%- if created_time == updated_time -%}
             创建于{{- created_time -}}，
         {%- else -%}
-            创建于{{- created_time }}，更新于{{ updated_time -}}，
+            创建于{{- created_time -}}，更新于{{- updated_time -}}，
         {%- endif -%}
     </span>
         {{ __.revision | default: "版本" }}
