@@ -40,9 +40,10 @@
         {%- if created_time == updated_time -%}
             创建于{{- created_time -}}，
         {%- else -%}
-            创建于{{- created_time -}}，更新于{{- updated_time -}}，
+            创建于{{- created_time }}更新于{{ updated_time -}}，
         {%- endif -%}
     </span>
+
         {{ __.revision | default: "版本" }}
         <a class="text-gray" href="{{ docs.repository_url }}/commit/{{ docs.build_revision }}" title="{{ docs.build_revision }}" rel="noreferrer" target="_blank">
             {{- docs.build_revision | slice: 0, 7 -}}
