@@ -1,30 +1,3 @@
-<div class="copyright text-center text-gray" role="contentinfo">
-    这些内容由
-    <a class="text-gray" href="{{ docs.owner_url }}" rel="noreferrer" target="_blank">
-        {{- author -}}
-    </a>
-    <span class="time">
-        {%- assign created_time = rest_created_at | date: "%Y-%m-%d" -%}
-        {%- assign updated_time = rest_updated_at | date: "%Y-%m-%d" -%}
-        {%- if created_time == updated_time -%}
-            创建于{{- created_time -}}，
-        {%- else -%}
-            创建于{{- created_time }}，最新更新于{{ updated_time -}}
-        {%- endif -%}
-    </span>
-    {% unless site.url contains "rundocs.io" %}
-        <br>
-        <div class="generator">
-            页面基于
-            <a href="https://rundocs.io" rel="noreferrer" target="_blank">RunDocs</a>
-            的
-            <a href="https://github.com/{{ theme_alias | split: '@' | first }}" rel="noreferrer" target="_blank" title="{{ generator }} v{{ version }}">开源主题</a>修改，
-            部署于
-            <a href="https://pages.github.com" rel="noreferrer" target="_blank" title="github-pages v{{ docs.versions.github-pages }}">GitHub Pages</a>
-        </div>
-    {% endunless %}
-</div>
-
 {% comment %} prev and next {% endcomment %}
 {%- if page.url != "/search.html" and page.url != "/404.html" -%}
     {%- if next or prev -%}
@@ -70,9 +43,7 @@
 
     <hr>
 
-    {% if site.gittalk.enable %}
-        {%- include extra/gittalk.html -%}
-    {% endif %}
+
 
 {%- endif -%}
 
