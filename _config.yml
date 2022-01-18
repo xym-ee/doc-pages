@@ -14,7 +14,7 @@ siteurl: "https://xymeng.xyz/doc-pages"
 
 
 gittalk:
-  enable:       false
+  enable:       true
   clientID:     5c4a4805389461265123
   clientSecret: b13a143f197a4e12a8295c256b366d884ec661d8
   repo:         doc-pages
