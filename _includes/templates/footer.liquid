@@ -1,5 +1,20 @@
 {% comment %} prev and next {% endcomment %}
 {%- if page.url != "/search.html" and page.url != "/404.html" -%}
+
+<br>
+<br>
+<br>
+
+<center>
+    <a>
+    @{{- author -}}
+    </a>
+    {{ __.revision | default: "Revision" }}
+    <a class="text-gray" href="{{ docs.repository_url }}/commit/{{ docs.build_revision }}" title="{{ docs.build_revision }}" rel="noreferrer" target="_blank">
+        {{- docs.build_revision | slice: 0, 7 -}}
+    </a>
+</center>
+
     {%- if next or prev -%}
         <div class="navigation-bottom d-flex flex-justify-between py-3" role="navigation" aria-label="footer navigation">
             <div class="prev">
@@ -30,12 +45,10 @@
 <hr>
 
 <div class="copyright text-center text-gray" role="contentinfo">
-        @{{- author -}}
-    </a>
-    {{ __.revision | default: "Revision" }}
-    <a class="text-gray" href="{{ docs.repository_url }}/commit/{{ docs.build_revision }}" title="{{ docs.build_revision }}" rel="noreferrer" target="_blank">
-        {{- docs.build_revision | slice: 0, 7 -}}
-    </a>
+
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+    <br />
+    This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
     {% unless site.url contains "rundocs.io" %}
         <br>
