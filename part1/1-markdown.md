@@ -167,11 +167,10 @@ Inline code inside table cells should still be distinguishable.
 
 Small images should be shown at their actual size.
 
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-Large images should always scale down and fit in the content container.
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+<figure>
+  <img src="https://github.githubassets.com/images/icons/emoji/octocat.png" width=100 />
+  <figcaption>github</figcaption>
+</figure>
 
 ```
 This is the final element on the page and there should be no margin below this.
