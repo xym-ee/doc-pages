@@ -3,8 +3,8 @@ description:  xyMeng
 
 theme: null
 
-siteurl: "https://xu.yumeng.website/doc-pages"
-# siteurl: "http://127.0.0.1:4000"
+url: "https://xu.yumeng.website"
+baseurl: "/doc-pages"
 
 
 # debug:
