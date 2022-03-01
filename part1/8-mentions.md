@@ -22,9 +22,7 @@ For documentation, see: [https://github.com/jekyll/jekyll-mentions](https://gith
 
 配合前面头像
 
-{% avatar 0xyMeng %}
-@0xyMeng
-
-{% avatar Jooc %}
-@Jooc
+| {% avatar Effun-141 %} | {% avatar RaeChim %} | {% avatar 0xyMeng %} | {% avatar Jooc %} |
+| :--------------------: | :------------------: | :------------------: | :---------------: |
+|       @Effun-141       |       @RaeChim       |       @0xyMeng       |       @Jooc       |
 
