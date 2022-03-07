@@ -4,8 +4,8 @@ sort: 1
 
 # 测试文档
 
-```
-/* 添加文章列表 */
+```md
+/* 添加目录 */
 {% raw %}{% include list.liquid all=true %}{% endraw %}
 ```
 
