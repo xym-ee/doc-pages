@@ -18,11 +18,11 @@ For documentation, see: [https://github.com/jekyll/jekyll-mentions](https://gith
 
 @Jooc
 
-@0xyMeng
+@Meng2025
 
 配合前面头像
 
-| {% avatar Effun-141 %} | {% avatar RaeChim %} | {% avatar 0xyMeng %} | {% avatar Jooc %} |
-| :--------------------: | :------------------: | :------------------: | :---------------: |
-|       @Effun-141       |       @RaeChim       |       @0xyMeng       |       @Jooc       |
+| {% avatar Effun-141 %} | {% avatar RaeChim %} | {% avatar Meng2025 %} | {% avatar Jooc %} |
+| :--------------------: | :------------------: | :-------------------: | :---------------: |
+|       @Effun-141       |       @RaeChim       |       @Meng2025       |       @Jooc       |
 

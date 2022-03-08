@@ -16,6 +16,6 @@ Set config `plugins: [jekyll-avatar]`
 For documentation, see: [https://github.com/benbalter/jekyll-avatar](https://github.com/benbalter/jekyll-avatar)
 ```
 
-{% avatar 0xyMeng %}
+{% avatar Meng2025 %}
 
 {% avatar Jooc %}
