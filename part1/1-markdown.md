@@ -1,10 +1,13 @@
 ---
 sort: 1
 ---
-
 # Markdown基本语法
 
-Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://github.com) should be blue with no underlines (unless hovered over).
+## 基础样式
+
+文本**加粗**、*斜体*、~~删除线~~。混合使用***斜体加粗***，~~**删除线加粗**~~。
+
+文本链接到[网址](https://github.com)。
 
 There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.
 
