@@ -1,13 +1,10 @@
 ---
 sort: 1
 ---
-# Markdown基本语法
 
-## 基础样式
+# Markdown Elements
 
-文本**加粗**、*斜体*、~~删除线~~。混合使用***斜体加粗***，~~**删除线加粗**~~。
-
-文本链接到[网址](https://github.com)。
+Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://github.com) should be blue with no underlines (unless hovered over).
 
 There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.
 
@@ -19,7 +16,7 @@ There should be whitespace between paragraphs. There should be whitespace betwee
 >
 > There should be no margin below this final sentence.
 
-## Header 1
+# Header 1
 
 This is a normal paragraph following a header. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.
 
@@ -170,10 +167,11 @@ Inline code inside table cells should still be distinguishable.
 
 Small images should be shown at their actual size.
 
-<figure>
-  <img src="https://github.githubassets.com/images/icons/emoji/octocat.png" width=100 />
-  <figcaption>github</figcaption>
-</figure>
+![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+
+Large images should always scale down and fit in the content container.
+
+![Branching](https://guides.github.com/activities/hello-world/branching.png)
 
 ```
 This is the final element on the page and there should be no margin below this.

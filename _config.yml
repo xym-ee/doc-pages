@@ -1,26 +1,12 @@
-title:        文档模板
-description:  xyMeng
+title: jekyll-rtd-theme
+description: Just another documentation theme compatible with GitHub Pages
 
 theme: null
-
-url: "https://xym.work"
-baseurl: "/doc-pages"
-
 
 # debug:
 #   compress: true
 #   dist: false
 #   shortcodes: true
-
-
-gittalk:
-  enable:       true
-  clientID:     5c4a4805389461265123
-  clientSecret: b13a143f197a4e12a8295c256b366d884ec661d8
-  repo:         doc-pages
-  owner:        Meng2025
-  admin:        Meng2025
-  id:           doc-pages-gittalk
 
 readme_index:
   with_frontmatter: true
@@ -43,5 +29,3 @@ exclude:
   - package-lock.json
   - webpack.config.js
   - jekyll-rtd-theme.gemspec
-
-

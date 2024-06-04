@@ -2,7 +2,7 @@
 sort: 2
 ---
 
-# 提醒卡片
+# Toasts Card
 
 THIS IS TOO LONG, NEED UPDATE! HERE IS SOME IDEAS:
 
@@ -10,7 +10,7 @@ THIS IS TOO LONG, NEED UPDATE! HERE IS SOME IDEAS:
 - https://primer.style/css/components/toasts
 
 ```note
-This is a note
+## This is a note
 
 Markdown is supported, Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://github.com) should be blue with no underlines
 

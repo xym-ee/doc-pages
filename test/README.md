@@ -2,10 +2,9 @@
 sort: 1
 ---
 
-# 测试文档
+# Test Documentation
 
-```md
-/* 添加目录 */
+```
 {% raw %}{% include list.liquid all=true %}{% endraw %}
 ```
 
